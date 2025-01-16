@@ -46,7 +46,7 @@ function WebtoonList() {
     const data = async () => {
       try {
         const response = await axios.get(
-          "https://my-json-server.typicode.com/xnldjskdhsaht/webtoon"
+          "https://my-json-server.typicode.com/xnldjskdhsaht/webtoon/webtoon"
         );
         setWebtoon(response.data);
       } catch (error) {
