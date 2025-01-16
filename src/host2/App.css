@@ -1,0 +1,62 @@
+@import url("https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo.css");
+/* font-family: 'Apple SD Gothic Neo'; */
+body {
+  font-family: "Apple SD Gothic Neo";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  max-width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 32px;
+  line-height: 32px;
+}
+header span {
+  line-height: 32px;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.allproduct {
+  max-width: 1400px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+.allproduct ul {
+  border: 1px solid #ccc;
+}
+.allproduct ul li {
+  padding: 0 4px;
+  margin-bottom: 32px;
+  max-height: 270px;
+}
+.allproduct ul li img {
+  border-radius: 10px;
+}
+.allproduct ul li p {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 4px;
+}
+.allproduct ul li a {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.allproduct ul h3 {
+  height: 50px;
+  text-align: center;
+  align-content: center;
+}
+
+/*# sourceMappingURL=App.css.map */
